@@ -46,7 +46,7 @@ Adapted for Swedish style conventions by Johannes Holst]
 \newcommand{\scripttype}[1]{\renewcommand{\@scripttype}{#1}}
 
 \DeclareOption*{%
-    \PackageError{screenplay}{Unwanted option '\CurrentOption'}%
+    \PackageError{musikal}{Unwanted option '\CurrentOption'}%
     {There are no options available for class screenplay v1.538}}
 \ProcessOptions\relax
 \RequirePackage{ifthen}[2001/05/26]
